@@ -1,0 +1,29 @@
+configs:
+  params:
+    server.insecure: true
+
+# controller:
+#   volumes:
+#     - name: aws-profile-mount
+#       secret:
+#         secretName: nonprod-aws-profile
+#         items:
+#           - key: my-profile-file
+#             path: my-profile-file
+#   volumeMounts:
+#     - name: aws-profile-mount
+#       mountPath: /mount/aws.profile
+#       readOnly: true
+
+# server:
+#   volumes:
+#     - name: aws-profile-mount
+#       secret:
+#         secretName: nonprod-aws-profile
+#         items:
+#           - key: my-profile-file
+#             path: my-profile-file
+#   volumeMounts:
+#     - name: aws-profile-mount
+#       mountPath: /mount/aws.profile
+#       readOnly: true
