@@ -22,7 +22,8 @@ spec:
             registry:
               storageClass: gp2
             jobservice:
-              storageClass: gp2
+              jobLog:
+                storageClass: gp2
             database:
               storageClass: gp2
             redis:
